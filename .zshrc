@@ -1,3 +1,12 @@
+# Environment configs from original .zshrc on devcontainer
+# see https://github.com/microsoft/vscode-dev-containers/blob/v0.238.0/containers/javascript-node/.devcontainer/base.Dockerfile
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="codespaces"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+DISABLE_AUTO_UPDATE=true
+DISABLE_UPDATE_PROMPT=true
+
 ## Environment variable configuration
 #
 # LANG
